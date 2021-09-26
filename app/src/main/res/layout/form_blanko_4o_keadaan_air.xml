@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/min_padding"
+    android:background="@drawable/shape_card"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondaryTextColor"
+                android:textStyle="bold"
+                android:text="Keadaan Air Irigasi di petak tersier"
+                android:textSize="18dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner_keadaan_air"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="--Pilih--"
+                    android:textColor="@color/secondaryTextColor"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/min_padding"
+                android:textColor="@color/secondaryTextColor"
+                android:textStyle="bold"
+                android:text="Kerusakan Tanaman"
+                android:textSize="18dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textStyle="bold"
+                        android:text="Tanaman"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textStyle="bold"
+                        android:text="Kekeringan"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textStyle="bold"
+                        android:text="Genangan"
+                        android:textSize="18dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/secondaryTextColor"
+                        android:text="Padi"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/ed_kekeringan_padi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/secondaryTextColor"
+                        android:textColor="@color/secondaryTextColor"/>
+
+                    <EditText
+                        android:id="@+id/ed_genangan_padi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/secondaryTextColor"
+                        android:textColor="@color/secondaryTextColor"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/secondaryTextColor"
+                        android:text="Tebu"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/ed_kekeringan_tebu"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/secondaryTextColor"
+                        android:textColor="@color/secondaryTextColor"/>
+
+                    <EditText
+                        android:id="@+id/ed_genangan_tebu"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/secondaryTextColor"
+                        android:textColor="@color/secondaryTextColor"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/secondaryTextColor"
+                        android:text="Palawija"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/ed_kekeringan_palawija"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/secondaryTextColor"
+                        android:textColor="@color/secondaryTextColor"/>
+
+                    <EditText
+                        android:id="@+id/ed_genangan_palawija"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/secondaryTextColor"
+                        android:textColor="@color/secondaryTextColor"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

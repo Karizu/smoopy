@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/default_padding">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/min_padding"
+                        android:text="Blanko 01-O"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/namaIp3a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IP3A/GP3A Sukamulya Makmur"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14dp" />
+
+                    <include layout="@layout/form_blanko_1o_padi" />
+
+                    <include layout="@layout/form_blanko_1o_tebu_tua" />
+
+                    <include layout="@layout/form_blanko_1o_tebu_muda" />
+
+                    <include layout="@layout/form_blanko_1o_palawija" />
+
+                    <include layout="@layout/form_blanko_1o_keperluan_lain" />
+
+                    <include layout="@layout/form_blanko_1o_bero" />
+
+                    <include layout="@layout/form_blanko_1o_gol_tanam" />
+
+                    <include layout="@layout/form_blanko_1o_tgl_pengolahan_tanah" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="100dp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/min_padding"
+            android:orientation="vertical"
+            android:background="@color/primaryTextColor"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Luas Sawah Irigasi"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="MT1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="MT2"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="MT3"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/usulanMT1LsIrigasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="12sp"
+                    android:text="-"/>
+
+                <TextView
+                    android:id="@+id/usulanMT2LsIrigasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="12sp"
+                    android:text="-"/>
+
+                <TextView
+                    android:id="@+id/usulanMT3LsIrigasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="12sp"
+                    android:text="-"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryTextColor"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/KeputusanMT1LsIrigasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="12sp"
+                    android:text="-"/>
+
+                <TextView
+                    android:id="@+id/keputusanMT2LsIrigasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="12sp"
+                    android:text="-"/>
+
+                <TextView
+                    android:id="@+id/keputusanMT3LsIrigasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="12sp"
+                    android:text="-"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

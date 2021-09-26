@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/min_padding"
+                android:textColor="@color/secondaryTextColor"
+                android:text="Rincian Blanko 01-P"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv_ruas_hm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Ruas hm. 0+00 s.d 58+04"
+                android:textColor="@color/secondaryTextColor"
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_rincian_blanko_1p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:layout_marginTop="@dimen/article_margin_top_bottom"/>
+
+            <TextView
+                android:id="@+id/notFoundText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Belum ada data"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/secondaryTextColor" />
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/add"
+            android:contentDescription="add"
+            android:layout_margin="16dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

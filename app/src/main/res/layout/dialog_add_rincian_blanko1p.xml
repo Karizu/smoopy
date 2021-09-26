@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="4dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/default_padding"
+                android:paddingStart="@dimen/default_padding"
+                android:paddingEnd="@dimen/default_padding"
+                android:background="@color/background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/blanko_1p_rincian_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/min_padding"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Tambah Rincian"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/spiner_saluran"
+                        android:layout_marginTop="@dimen/default_padding"
+                        android:layout_marginLeft="3dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="115dp"
+                    android:layout_marginTop="@dimen/min_padding"
+                    android:background="@drawable/bg_field"
+                    android:padding="16dp">
+
+                    <EditText
+                        android:id="@+id/et_deskripsi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="top"
+                        android:hint="Dekripsi"
+                        android:background="@android:color/transparent"/>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_form"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/min_padding"
+                            android:textColor="@color/secondaryTextColor"
+                            android:text="Jumlah"
+                            android:textStyle="bold"
+                            android:textSize="14sp"/>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@color/white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/et_jumlah"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="14sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/min_padding"
+                            android:textColor="@color/secondaryTextColor"
+                            android:text="Satuan"
+                            android:textStyle="bold"
+                            android:textSize="14sp"/>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@color/white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/et_satuan"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="text"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="14sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutRuas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/min_padding"
+                            android:textColor="@color/secondaryTextColor"
+                            android:text="Ruas Awal"
+                            android:textStyle="bold"
+                            android:textSize="14sp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="6dp"
+                            android:weightSum="3">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+                                android:layout_weight="1.5"
+                                android:background="@color/white"
+                                android:padding="8dp">
+
+                                <EditText
+                                    android:id="@+id/et_ruas_awal_start"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:background="@color/transparent"
+                                    android:hint=""
+                                    android:textSize="14sp"/>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+
+                                android:padding="12dp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/add"
+                                    android:hint=""
+                                    android:textSize="14sp"/>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+                                android:layout_weight="1.5"
+                                android:background="@color/white"
+                                android:padding="8dp">
+
+                                <EditText
+                                    android:id="@+id/et_ruas_awal_end"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:background="@color/transparent"
+                                    android:hint=""
+                                    android:textSize="14sp"/>
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/min_padding"
+                            android:textColor="@color/secondaryTextColor"
+                            android:text="Ruas Akhir"
+                            android:textStyle="bold"
+                            android:textSize="14sp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="6dp"
+                            android:weightSum="3">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+                                android:layout_weight="1.5"
+                                android:background="@color/white"
+                                android:padding="8dp">
+
+                                <EditText
+                                    android:id="@+id/et_ruas_akhir_start"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:background="@color/transparent"
+                                    android:hint=""
+                                    android:textSize="14sp"/>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+
+                                android:padding="12dp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/add"
+                                    android:hint=""
+                                    android:textSize="14sp"/>
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+                                android:layout_weight="1.5"
+                                android:background="@color/white"
+                                android:padding="8dp">
+
+                                <EditText
+                                    android:id="@+id/et_ruas_akhir_end"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:inputType="number"
+                                    android:maxLength="2"
+                                    android:background="@color/transparent"
+                                    android:hint=""
+                                    android:textSize="14sp"/>
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/spinner_kerusakan"
+                        android:layout_marginTop="@dimen/default_padding"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold"
+                        android:text="Pilih Kerusakan"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/padding_form"
+                    android:background="@color/gray_text"/>
+
+                <FrameLayout
+                    android:id="@+id/btn_frame_simpan"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center"
+                        android:text="SIMPAN"
+                        android:textSize="18sp"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

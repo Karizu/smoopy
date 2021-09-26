@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:padding="16dp"
+    android:background="@drawable/shape_card"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondaryTextColor"
+        android:textStyle="bold"
+        android:text="Palawijaya"
+        android:textSize="18dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondaryTextColor"
+            android:text="Yang perlu banyak air"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            tools:ignore="HardcodedText" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvBanyakAirTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm1"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etBanyakAirSm1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvBanyakAirTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm2"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etBanyakAirSm2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvBanyakAirTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm3"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etBanyakAirSm3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvBanyakAirTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etBanyakAirSm4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutBanyakAir5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvBanyakAirTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etBanyakAirSm5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutAdditional7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm1"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm2"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm3"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBanyakAirTitleAdd16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etBanyakAirSmAdd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/label_usulan_padi_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/secondaryTextColor"
+            android:text="Yang perlu sedikit air"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSedikitAirTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm1"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etSedikitAirSm1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSedikitAirTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm2"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etSedikitAirSm2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSedikitAirTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm3"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etSedikitAirSm3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSedikitAirTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etSedikitAirSm4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutSedikitAir5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSedikitAirTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etSedikitAirSm5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutAdditional8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm1"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm2"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm3"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSedikitAirTitleAdd16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etSedikitAirSmAdd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

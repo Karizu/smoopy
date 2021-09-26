@@ -1,0 +1,57 @@
+package io.realm;
+
+
+public interface com_pusair_smopi_Model_DaerahIrigasiRealmProxyInterface {
+    public String realmGet$id();
+    public void realmSet$id(String value);
+    public String realmGet$kd_di();
+    public void realmSet$kd_di(String value);
+    public String realmGet$nm_di();
+    public void realmSet$nm_di(String value);
+    public String realmGet$klasifikasi();
+    public void realmSet$klasifikasi(String value);
+    public String realmGet$thn_bangun();
+    public void realmSet$thn_bangun(String value);
+    public float realmGet$luas_swiri();
+    public void realmSet$luas_swiri(float value);
+    public String realmGet$kewenangan();
+    public void realmSet$kewenangan(String value);
+    public String realmGet$sumber();
+    public void realmSet$sumber(String value);
+    public String realmGet$nm_sumber();
+    public void realmSet$nm_sumber(String value);
+    public String realmGet$tmt_di();
+    public void realmSet$tmt_di(String value);
+    public String realmGet$kd_das();
+    public void realmSet$kd_das(String value);
+    public String realmGet$tmt_das();
+    public void realmSet$tmt_das(String value);
+    public int realmGet$hapus();
+    public void realmSet$hapus(int value);
+    public String realmGet$kd_ws();
+    public void realmSet$kd_ws(String value);
+    public String realmGet$tmt_ws();
+    public void realmSet$tmt_ws(String value);
+    public float realmGet$fpr();
+    public void realmSet$fpr(float value);
+    public int realmGet$perkolasi();
+    public void realmSet$perkolasi(int value);
+    public String realmGet$kd_kab();
+    public void realmSet$kd_kab(String value);
+    public String realmGet$kd_prop();
+    public void realmSet$kd_prop(String value);
+    public String realmGet$kd_pulau();
+    public void realmSet$kd_pulau(String value);
+    public String realmGet$nm_ws();
+    public void realmSet$nm_ws(String value);
+    public float realmGet$luas_ws();
+    public void realmSet$luas_ws(float value);
+    public float realmGet$stok_air();
+    public void realmSet$stok_air(float value);
+    public String realmGet$nm_kab();
+    public void realmSet$nm_kab(String value);
+    public String realmGet$nm_prop();
+    public void realmSet$nm_prop(String value);
+    public String realmGet$kriteria_ws();
+    public void realmSet$kriteria_ws(String value);
+}

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/min_padding"
+                android:text="Blanko 08-O Pencatatan Debit Sungai"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_padding"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14dp"
+                        android:text="Daerah Irigasi"/>
+
+                    <TextView
+                        android:id="@+id/label_daerahIrigasi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14sp"
+                        android:text=": Marangkayu"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14sp"
+                        android:text="Kode Irigasi"/>
+
+                    <TextView
+                        android:id="@+id/label_kodeIrigasi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14sp"
+                        android:text=": 01019202"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14sp"
+                        android:text="Periode Pemberian Air"/>
+
+                    <TextView
+                        android:id="@+id/label_periode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14sp"
+                        android:text=": 500"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="14dp"
+                android:text="Debit pada Tanggal"/>
+
+            <devs.mulham.horizontalcalendar.HorizontalCalendarView
+                android:visibility="gone"
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@color/background"
+                app:textColorSelected="@color/secondaryTextColor"/>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginBottom="8dp"
+                app:tabMode="scrollable"
+                app:tabContentStart="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_padding"
+                android:orientation="vertical"
+                android:background="@drawable/shape_card">
+
+                <TextView
+                    android:id="@+id/label_bangtrol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Debit Limpas Bendung"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/ed_debit"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/default_padding"
+                        android:textColor="@color/secondaryTextColor"
+                        android:hint="Q (l/det)"/>
+
+                    <EditText
+                        android:id="@+id/ed_h"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/default_padding"
+                        android:textColor="@color/secondaryTextColor"
+                        android:hint="H (cm)"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:layout_marginTop="12dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Debit Pintu Masuk Pengambilan"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Kanan"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/q_pintu_masuk_kanan"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/default_padding"
+                        android:textColor="@color/secondaryTextColor"
+                        android:hint="Q (l/det)"/>
+
+                    <EditText
+                        android:id="@+id/h_pintu_masuk_kanan"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/default_padding"
+                        android:textColor="@color/secondaryTextColor"
+                        android:hint="H (cm)"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Kiri"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/q_pintu_masuk_kiri"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/default_padding"
+                        android:textColor="@color/secondaryTextColor"
+                        android:hint="Q (l/det)"/>
+
+                    <EditText
+                        android:id="@+id/h_pintu_masuk_kiri"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/default_padding"
+                        android:textColor="@color/secondaryTextColor"
+                        android:hint="H (cm)"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Debit Sungai"
+                        android:textStyle="bold"
+                        android:textColor="@color/secondaryTextColor"
+                        android:layout_marginTop="@dimen/default_padding"
+                        android:layout_marginLeft="@dimen/default_padding"
+                        android:layout_marginRight="@dimen/article_margin_left_right"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Debit rata-rata 5 harian"
+                        android:textStyle="bold"
+                        android:textColor="@color/secondaryTextColor"
+                        android:layout_marginTop="@dimen/default_padding"
+                        android:layout_marginLeft="@dimen/article_margin_left_right"
+                        android:layout_marginRight="@dimen/article_margin_left_right"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/debit_sungai"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="100"
+                        android:textColor="@color/secondaryTextColor"
+                        android:layout_marginLeft="@dimen/default_padding"
+                        android:layout_marginRight="@dimen/article_margin_left_right"
+                        />
+
+                    <TextView
+                        android:id="@+id/debit_rata_rata_5_harian"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="100"
+                        android:textColor="@color/secondaryTextColor"
+                        android:layout_marginLeft="@dimen/article_margin_left_right"
+                        android:layout_marginRight="@dimen/article_margin_left_right"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Jumlah Debit Sungai"
+                        android:textStyle="bold"
+                        android:textColor="@color/secondaryTextColor"
+                        android:layout_marginTop="@dimen/default_padding"
+                        android:layout_marginLeft="@dimen/default_padding"
+                        android:layout_marginRight="@dimen/article_margin_left_right"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Rata-rata debit sungai"
+                        android:textStyle="bold"
+                        android:textColor="@color/secondaryTextColor"
+                        android:layout_marginTop="@dimen/default_padding"
+                        android:layout_marginLeft="@dimen/article_margin_left_right"
+                        android:layout_marginRight="@dimen/article_margin_left_right"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/total_debit_sungai"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="100"
+                        android:textColor="@color/secondaryTextColor"
+                        android:layout_marginLeft="@dimen/default_padding"
+                        android:layout_marginRight="@dimen/article_margin_left_right"
+                        />
+
+                    <TextView
+                        android:id="@+id/rata_rata_debit_sungai"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="100"
+                        android:textColor="@color/secondaryTextColor"
+                        android:layout_marginLeft="@dimen/article_margin_left_right"
+                        android:layout_marginRight="@dimen/article_margin_left_right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

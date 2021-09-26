@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/min_padding"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Blanko 01-P"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/min_padding"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Rentang Waktu Inspeksi"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/spinner_start_date"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="0dp"
+                        android:foreground="?selectableItemBackground"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:layout_height="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:id="@+id/tvStartDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Jul 2020"
+                                android:textColor="@color/Black"
+                                android:gravity="center"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:paddingEnd="8dp"
+                                android:src="@drawable/ic_baseline_arrow_drop_down_grey_24"/>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/spinner_end_date"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:foreground="?selectableItemBackground"
+                        android:layout_height="50dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:id="@+id/tvEndDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Jul 2020"
+                                android:textColor="@color/Black"
+                                android:gravity="center"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:paddingEnd="8dp"
+                                android:src="@drawable/ic_baseline_arrow_drop_down_grey_24"/>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/spinner_tmt"
+                        android:layout_marginTop="@dimen/default_padding"
+                        android:layout_marginRight="3dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/secondaryTextColor"
+                        android:text="Daftar Blanko 01-P"
+                        android:textStyle="bold"
+                        android:textSize="14dp"/>
+
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_blanko_1p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:layout_marginTop="@dimen/article_margin_top_bottom"/>
+
+                <TextView
+                    android:id="@+id/notFoundText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Belum ada data"
+                    android:visibility="gone"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryTextColor" />
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center|bottom"
+                android:src="@drawable/add"
+                android:contentDescription="add"
+                android:layout_marginBottom="8dp"/>
+
+        </RelativeLayout>
+
+</FrameLayout>

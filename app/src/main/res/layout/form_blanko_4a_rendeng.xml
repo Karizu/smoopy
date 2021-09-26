@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:padding="16dp"
+    android:background="@drawable/shape_card"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondaryTextColor"
+        android:textStyle="bold"
+        android:text="Rendeng/Padi Gadu Ijin"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondaryTextColor"
+            android:text="Pengolahan Tanah + Persemaian"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            tools:ignore="HardcodedText" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm1"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPtpSm1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm2"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPtpSm2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm3"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPtpSm3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPtpSm4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutPengolahan5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                    android:layout_width="75dp"
+                    android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPtpSm5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutAdditional"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm1"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm2"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm3"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTitleAdd16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPtpSmAdd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/label_usulan_padi_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/secondaryTextColor"
+            android:text="Pertumbuhan"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPertumbuhanTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm1"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPertSm1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPertumbuhanTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm2"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPertSm2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPertumbuhanTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm3"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPertSm3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPertumbuhanTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPertSm4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutPertumbuhan5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPertumbuhanTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPertSm5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutAdditional2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm1"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm2"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm3"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPertumbuhanTitleAdd16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPertSmAdd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/label_usulan_padi_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondaryTextColor"
+            android:text="Panen"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPaneneTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm1"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPanSm1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPaneneTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm2"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPanSm2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPaneneTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm3"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPanSm3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPaneneTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPanSm4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutPanen5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPaneneTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPanSm5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutAdditional3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm1"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm2"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm3"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPaneneTitleAdd16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPanSmAdd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

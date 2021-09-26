@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:padding="16dp"
+    android:background="@drawable/shape_card"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondaryTextColor"
+        android:textStyle="bold"
+        android:text="Tebu"
+        android:textSize="18dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondaryTextColor"
+            android:text="Pengolahan Tanah + Persemaian"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            tools:ignore="HardcodedText" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTebuTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm1"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuPtpSm1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTebuTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm2"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuPtpSm2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTebuTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm3"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuPtpSm3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTebuTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuPtpSm4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutPengolahanTebu5"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPengolahanTebuTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuPtpSm5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutAdditional4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm1"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm2"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm3"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPengolahanTebuTitleAdd16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuPtpSmAdd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/label_usulan_padi_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/secondaryTextColor"
+            android:text="Tebu Muda"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTebuMudaTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm1"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuMudaSm1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTebuMudaTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm2"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuMudaSm2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTebuMudaTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm3"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuMudaSm3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTebuMudaTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuMudaSm4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutTebuMuda5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTebuMudaTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etTebuMudaSm5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutAdditional5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm1"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm2"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm3"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTebuMudaTitleAdd16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etTebuMudaSmAdd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/label_usulan_padi_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/secondaryTextColor"
+            android:text="Palawijaya"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPalawijayaTitle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm1"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPalaSm1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPalawijayaTitle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm2"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPalaSm2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPalawijayaTitle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm3"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPalaSm3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPalawijayaTitle4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPalaSm4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutPalawijaya5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPalawijayaTitle5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="12sp"
+                        android:text="B.Sm4"
+                        tools:ignore="HardcodedText" />
+
+                    <FrameLayout
+                        android:layout_width="75dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_field_corner_white"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/etPalaSm5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:inputType="number"
+                            android:background="@color/transparent"
+                            android:hint=""
+                            android:textSize="12sp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layoutAdditional6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm1"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm2"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm3"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPalawijayaTitleAdd16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp"
+                            android:text="B.Sm4"
+                            tools:ignore="HardcodedText" />
+
+                        <FrameLayout
+                            android:layout_width="75dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/bg_field_corner_white"
+                            android:padding="8dp">
+
+                            <EditText
+                                android:id="@+id/etPalaSmAdd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:inputType="number"
+                                android:background="@color/transparent"
+                                android:hint=""
+                                android:textSize="12sp"/>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

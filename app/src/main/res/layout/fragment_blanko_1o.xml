@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/min_padding"
+                android:textColor="@color/secondaryTextColor"
+                android:text="Blanko 01-O"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner_musim"
+                android:layout_marginTop="@dimen/default_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner_ip3a"
+                android:layout_marginTop="@dimen/default_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Daftar Blanko 01-O"
+                    android:textStyle="bold"
+                    android:textSize="14dp"/>
+
+                <Button
+                    android:id="@+id/btn_edit_blanko1o"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Edit All"
+                    android:backgroundTint="@color/secondaryColor"
+                    android:padding="@dimen/min_padding"/>
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_blanko_1o"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:layout_marginTop="@dimen/article_margin_top_bottom"/>
+
+            <TextView
+                android:id="@+id/notFoundText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Belum ada data"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/secondaryTextColor" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center|bottom"
+                android:src="@drawable/add"
+                android:contentDescription="add"
+                android:layout_margin="16dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

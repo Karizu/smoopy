@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2d7ee67-0aca-44f8-bb2c-bcdc5f77db2a" name="Default Changelist" comment="Add Sync All Blanko">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AAddFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AAddFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4O/Blanko4OFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4O/Blanko4OFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko6O/AdapterListBlanko6O.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko6O/AdapterListBlanko6O.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko6O/Blanko6OAddNewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko6O/Blanko6OAddNewFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko6O/Blanko6OFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko6O/Blanko6OFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Home/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Login/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/form_blanko_4a_lain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/form_blanko_4a_lain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/form_blanko_4a_palawijaya.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/form_blanko_4a_palawijaya.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/form_blanko_4a_rendeng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/form_blanko_4a_rendeng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/form_blanko_4a_tebu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/form_blanko_4a_tebu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_blanko_4a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_blanko_4a.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_28" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SMOPI" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nZLaDwyk7f9lzbeET8v03rjnrD" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_28" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-02-24T12:44:16.112Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.241012920">
+      <recent name="com.pusair.smopi.Utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pusair.smopi.Presentation.Blanko4A" />
+      <recent name="com.pusair.smopi.Presentation.Blanko8O" />
+      <recent name="com.pusair.smopi.Presentation.Blanko6O" />
+      <recent name="com.pusair.smopi.Utils" />
+      <recent name="com.pusair.smopi.Presentation.Blanko1P" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjectAndroid\smoopy\smopi-android\app\src\main\res\layout" />
+      <recent name="E:\ProjectAndroid\smoopy\smopi-android\app\src\main\java\com\pusair\smopi\Utils" />
+      <recent name="E:\ProjectAndroid\smoopy\smopi-android\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="selectedBangtrol" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_ANONYMOUS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2d7ee67-0aca-44f8-bb2c-bcdc5f77db2a" name="Default Changelist" comment="" />
+      <created>1611592727769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611592727769</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add blanko1o edit all">
+      <created>1611802548046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611802548046</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add blanko1o edit all">
+      <created>1611804939461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611804939461</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add screen:&#10;- main blanko1p&#10;- tambah blanko1p&#10;- row list blanko1p&#10;- rincian blanko1p&#10;- tambah rincian&#10;- row list rincian">
+      <created>1611967705863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611967705863</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add screen:&#10;- main blanko1p&#10;- tambah blanko1p&#10;- row list blanko1p&#10;- rincian blanko1p&#10;- tambah rincian&#10;- row list rincian">
+      <created>1611969814607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611969814607</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add list blanko1p">
+      <created>1612054897689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612054897689</updated>
+    </task>
+    <task id="LOCAL-00006" summary="edit list blanko1p">
+      <created>1612310015709</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612310015709</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rincian 1p">
+      <created>1612373198274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612373198274</updated>
+    </task>
+    <task id="LOCAL-00008" summary="blanko 6o Add Edit periode 1">
+      <created>1612753886157</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612753886157</updated>
+    </task>
+    <task id="LOCAL-00009" summary="blanko 6o Add Edit periode 2">
+      <created>1612803229556</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612803229556</updated>
+    </task>
+    <task id="LOCAL-00010" summary="blanko 4a">
+      <created>1613053381545</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613053381546</updated>
+    </task>
+    <task id="LOCAL-00011" summary="blanko 08-A">
+      <created>1613301006632</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613301006633</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add Sync All Blanko">
+      <created>1613535832689</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613535832689</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add Sync All Blanko">
+      <created>1613551424842</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613551424842</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add Sync All Blanko">
+      <created>1613551803068</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613551803068</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add Sync All Blanko">
+      <created>1613571596485</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613571596485</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix Toolbar Title">
+      <created>1614172091405</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614172091405</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix Blanko 4O">
+      <created>1615082063091</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615082063091</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Commit 300621">
+      <created>1625031428832</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625031428832</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update form blanko 4a, fix add blanko 4a, fix local data, update list">
+      <created>1632656926005</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1632656926005</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add blanko1o edit all" />
+    <MESSAGE value="add screen:&#10;- main blanko1p&#10;- tambah blanko1p&#10;- row list blanko1p&#10;- rincian blanko1p&#10;- tambah rincian&#10;- row list rincian" />
+    <MESSAGE value="add list blanko1p" />
+    <MESSAGE value="edit list blanko1p" />
+    <MESSAGE value="rincian 1p" />
+    <MESSAGE value="blanko 6o Add Edit periode 1" />
+    <MESSAGE value="blanko 6o Add Edit periode 2" />
+    <MESSAGE value="blanko 4a" />
+    <MESSAGE value="blanko 08-A" />
+    <MESSAGE value="Add Sync All Blanko" />
+    <MESSAGE value="Fix Toolbar Title" />
+    <MESSAGE value="Fix Blanko 4O" />
+    <MESSAGE value="Commit 300621" />
+    <MESSAGE value="update form blanko 4a, fix add blanko 4a, fix local data, update list" />
+    <option name="LAST_COMMIT_MESSAGE" value="update form blanko 4a, fix add blanko 4a, fix local data, update list" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1632657591445">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1632657591445" />
+    <state width="1323" height="324" key="GridCell.Tab.0.bottom" timestamp="1632657079508">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="324" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1632657079508" />
+    <state width="1323" height="324" key="GridCell.Tab.0.center" timestamp="1632657079508">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="324" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1632657079508" />
+    <state width="1323" height="324" key="GridCell.Tab.0.left" timestamp="1632657079508">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="324" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1632657079508" />
+    <state width="1323" height="324" key="GridCell.Tab.0.right" timestamp="1632657079508">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="324" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1632657079508" />
+    <state x="395" y="85" key="MultipleFileMergeDialog" timestamp="1632657413037">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="395" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1632657413037" />
+    <state x="463" y="80" key="RollbackChangesDialog" timestamp="1632657244908">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="80" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1632657244908" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1632657396384">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1632657396384" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632657198976">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1632657198976" />
+    <state x="327" y="106" width="737" height="606" key="find.popup" timestamp="1625646336776">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="327" y="106" width="737" height="606" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1625646336776" />
+    <state width="306" height="88" key="javadoc.popup.new" timestamp="1625890040043">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="306" height="88" key="javadoc.popup.new/0.0.1366.738@0.0.1366.738" timestamp="1625890040043" />
+    <state x="324" y="94" width="700" height="530" key="recent.locations.popup" timestamp="1625641311714">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="324" y="94" width="700" height="530" key="recent.locations.popup/0.0.1366.738@0.0.1366.738" timestamp="1625641311714" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1625194848069">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1625194848069" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1O/Blanko1OEditAllFragment.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1O/Blanko1OEditAllFragment.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PAddFragment.java</url>
+          <line>191</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PAddFragment.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PAddFragment.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PAddFragment.java</url>
+          <line>350</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PAddFragment.java</url>
+          <line>367</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PAddFragment.java</url>
+          <line>375</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PAddFragment.java</url>
+          <line>388</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PRincianFragment.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AAddFragment.java</url>
+          <line>1719</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AAddFragment.java</url>
+          <line>1456</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AAddFragment.java</url>
+          <line>1449</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AAddFragment.java</url>
+          <line>1709</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AAddFragment.java</url>
+          <line>955</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PFragment.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PFragment.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PFragment.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko8O/Blanko8OEditFragment.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko8O/Blanko8OEditFragment.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko8O/Blanko8OAddFragment.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Home/HomeFragment.java</url>
+          <line>561</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Home/HomeFragment.java</url>
+          <line>428</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Home/HomeFragment.java</url>
+          <line>700</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Home/HomeFragment.java</url>
+          <line>1105</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4O/AdapterListBlanko4O.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4O/Blanko4OFragment.java</url>
+          <line>307</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4O/Blanko4OAddFragment.java</url>
+          <line>312</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko1P/Blanko1PAddFragment.java</url>
+          <line>290</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pusair/smopi/Presentation/Blanko4A/Blanko4AAddFragment.java</url>
+          <line>701</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

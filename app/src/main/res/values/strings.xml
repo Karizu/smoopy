@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SMOPI Mobile</string>
+    <string name="app_desc">Sistem Manajemen Operasi &amp; Pemeliharaan Irigasi</string>
+    <string name="app_version">Version 2.0</string>
+    <string name="app_year">2020</string>
+
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+
+    <string name="act_login">Login</string>
+</resources>

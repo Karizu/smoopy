@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/default_padding">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/min_padding"
+                        android:text="Blanko 04-O"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <include layout="@layout/form_blanko_4o_padi" />
+
+                    <include layout="@layout/form_blanko_4o_tebu" />
+
+                    <include layout="@layout/form_blanko_4o_palawija" />
+
+                    <include layout="@layout/form_blanko_4o_lain" />
+
+                    <include layout="@layout/form_blanko_4o_lain" />
+
+                    <include layout="@layout/form_blanko_4o_bero" />
+
+                    <include layout="@layout/form_blanko_4o_luas_sawah" />
+
+                    <include layout="@layout/form_blanko_4o_keadaan_air" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>

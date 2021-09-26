@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/layoutRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/min_padding"
+                    android:textColor="@color/secondaryTextColor"
+                    android:text="Blanko 04-A"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <include layout="@layout/form_blanko_4a_rendeng"/>
+                <include layout="@layout/form_blanko_4a_tebu"/>
+                <include layout="@layout/form_blanko_4a_palawijaya"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/layoutRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/min_padding"
+                android:textColor="@color/secondaryTextColor"
+                android:text="Petak tersier"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTersier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
